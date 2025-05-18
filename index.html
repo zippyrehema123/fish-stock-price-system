@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coastal Fish Market Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <i class="fas fa-fish logo-icon"></i>
+        <h1>Coastal Fish Market Platform</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" onclick="showSection('home')">🏠 Home</a></li>
+          <li><a href="#" onclick="showSection('resources')">📚 Educational Resources</a></li>
+          <li><a href="#" onclick="showSection('dashboard')">📊 Data Dashboard</a></li>
+          <li><a href="#" onclick="showSection('prediction')">🔮 Prediction Tool</a></li>
+          <li><a href="#" onclick="showSection('species')">🐟 Fish Species</a></li>
+          <li><a href="#" onclick="showSection('recipes')">🍳 Recipes</a></li>
+          <li><a href="#" onclick="showSection('about')">👥 About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero-banner">
+    <div class="hero-content">
+      <h2>Empowering Coastal Communities</h2>
+      <p>This platform helps track fish availability and pricing along the coast, connecting fishermen with markets and consumers while promoting sustainable practices 🌍.</p>
+
+      
+    </div>
+  </div>
+
+  <main class="container">
+    <section id="home" class="content-section">
+      <h2>Welcome to the Coastal Fish Market Platform</h2>
+
+
+
+  <div class="feature-section">
+    <div class="feature-card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Market Insights</h3>
+      <p>Get real-time data on fish prices and availability across different coastal areas.</p>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-fish"></i>
+      <h3>Species Information</h3>
+      <p>Learn about different fish species, their seasons, and sustainable fishing practices.</p>
+    </div>
+    <div class="feature-card">
+      <i class="fas fa-cloud-sun-rain"></i>
+      <h3>Weather Impact</h3>
+      <p>Understand how weather conditions affect fishing and market prices.</p>
+    </div>
+  </div>
+  
+  <div class="latest-news">
+    <h3>Latest Updates</h3>
+    <div class="news-container">
+      <div class="news-item">
+        <div class="news-date">May 3, 2025</div>
+        <h4>New Fishing Regulations Announced</h4>
+        <p>The Fisheries Department has announced updated regulations for the upcoming season...</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="news-item">
+        <div class="news-date">April 28, 2025</div>
+        <h4>Record Tuna Catches Reported in Malindi</h4>
+        <p>Local fishermen have reported exceptional tuna catches following favorable weather conditions...</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="news-item">
+        <div class="news-date">April 20, 2025</div>
+        <h4>Community Workshop: Sustainable Fishing</h4>
+        <p>Join our upcoming workshop on sustainable fishing practices and market opportunities...</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="impact-stats">
+    <h3>Our Impact</h3>
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">12</span>
+        <span class="stat-label">Coastal Markets Connected</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">500+</span>
+        <span class="stat-label">Registered Fishermen</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">20%</span>
+        <span class="stat-label">Average Income Increase</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15K</span>
+        <span class="stat-label">Monthly Platform Users</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resources" class="content-section" style="display:none;">
+  <h2>Educational Resources</h2>
+  <p>Learn about sustainable fishing practices, marine life conservation, and local laws.</p>
+  
+   <div class="resource-list">
+    <div class="resource-item">
+      <h3>Sustainable Fishing Practices</h3>
+      <p>Discover methods and tools for sustainable fishing that help preserve marine ecosystems.</p>
+      <div class="resource-links">
+        <a href="#" class="resource-link"><i class="fas fa-file-pdf"></i> Download Guide</a>
+        
+      </div>
+    </div>
+    
+    <div class="resource-item">
+      <h3>Marine Conservation Guidelines</h3>
+      <p>Learn about protected marine areas and how to contribute to ocean conservation efforts.</p>
+      <div class="resource-links">
+        <a href="#" class="resource-link"><i class="fas fa-file-pdf"></i> Download Guide</a>
+        
+      </div>
+    </div>
+    
+    <div class="resource-item">
+      <h3>Local Fishing Regulations</h3>
+      <p>Stay updated on fishing seasons, size limits, and catch quotas in your area.</p>
+      <div class="resource-links">
+        <a href="#" class="resource-link"><i class="fas fa-file-pdf"></i> Download Guide</a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="video-resources">
+    <h3>Featured Videos</h3>
+    <div class="video-container">
+      <div class="video-item">
+        
+          
+          <div class="play-button"><i class="fas fa-play"></i></div>
+        </div>
+        <h4>Sustainable Net Fishing Techniques</h4>
+        <p>Learn how to minimize bycatch and protect marine ecosystems</p>
+      </div>
+      <div class="video-item">
+        
+          
+          <div class="play-button"><i class="fas fa-play"></i></div>
+        </div>
+        <h4>Understanding Fish Preservation</h4>
+        <p>Methods to maintain freshness and quality after catch</p>
+      </div>
+      <div class="video-item">
+        
+          
+          <div class="play-button"><i class="fas fa-play"></i></div>
+        </div>
+        <h4>Navigating Fish Markets</h4>
+        <p>How to get the best prices for your catch</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dashboard" class="content-section" style="display:none;">
+  <h Huntington’s disease is a genetic disorder that affects a person's cognitive and physical abilities. There are two types: adult-onset, which is most common, and juvenile-onset, which is less common. Symptoms include cognitive decline, muscle rigidity, and movement disorders. There is no cure, but treatments can manage symptoms.
+  
+  <div class="data-filters">
+    <h3>Filter Options</h3>
+    <div class="filter-controls">
+      <div class="filter-group">
+        <label for="dashSpecies">Fish Species:</label>
+        <select id="dashSpecies">
+          <option value="all">All Species</option>
+          <option value="tilapia">Tilapia</option>
+          <option value="snapper">Snapper</option>
+          <option value="tuna">Tuna</option>
+          <option value="grouper">Grouper</option>
+          <option value="mackerel">Mackerel</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="dashLocation">Location:</label>
+        <select id="dashLocation">
+          <option value="all">All Locations</option>
+          <option value="mombasa">Mombasa</option>
+          <option value="lamu">Lamu</option>
+          <option value="malindi">Malindi</option>
+          <option value="kilifi">Kilifi</option>
+          <option value="diani">Diani</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="dashTimeframe">Timeframe:</label>
+        <select id="dashTimeframe">
+          <option value="week">Last Week</option>
+          <option value="month">Last Month</option>
+          <option value="quarter">Last Quarter</option>
+          <option value="year">Last Year</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chart-container">
+    <h3>Price Trends</h3>
+    <div class="chart">
+      
+    </div>
+    
+    <div class="chart-legend">
+      <div class="legend-item"><span class="color-box blue"></span> Tilapia</div>
+      <div class="legend-item"><span class="color-box orange"></span> Snapper</div>
+      <div class="legend-item"><span class="color-box green"></span> Tuna</div>
+    </div>
+  </div>
+  
+  <div class="market-map">
+    <h3>Coastal Market Map</h3>
+    <div class="map-container">
+      
+    </div>
+    <!-- Market map integration on home page -->
+      <div class="market-map">
+        <h3>Coastal Market Map Overview</h3>
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507630.3254697274!2d39.33961545770265!3d-4.064967219271058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012e78ec02c7d%3A0xcb618bbc35d0db5a!2sMombasa%2C%20Kenya!5e0!3m2!1sen!2s!4v1716166511873!5m2!1sen!2s" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <p class="map-info">Find market locations, fish landing sites, and price information across the Kenyan coast.</p>
+      </div>
+      
+    <p class="map-info">Click on any market location to see detailed pricing and availability information.</p>
+  </div>
+  
+  <div class="data-insights">
+    <h3>Key Insights</h3>
+    <div class="insights-container">
+      <div class="insight-card">
+        <i class="fas fa-arrow-trend-up"></i>
+        <h4>Price Trend</h4>
+        <p>Tilapia prices have increased by 15% in Mombasa over the past month.</p>
+      </div>
+      <div class="insight-card">
+        <i class="fas fa-fish"></i>
+        <h4>Availability</h4>
+        <p>Tuna availability is expected to peak in the next two weeks.</p>
+      </div>
+      <div class="insight-card">
+        <i class="fas fa-cloud-rain"></i>
+        <h4>Weather Impact</h4>
+        <p>Recent rainfall has decreased fishing activity in Lamu by 30%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prediction" class="content-section" style="display:none;">
+  <h2>Prediction Tool</h2>
+  <p>Use this tool to estimate fish prices and availability based on various factors.</p>
+  
+  <div class="prediction-info">
+    <div class="info-card">
+      <i class="fas fa-info-circle"></i>
+      <p>Our prediction model uses historical data, seasonal patterns, weather forecasts, and market trends to generate estimates.</p>
+    </div>
+  </div>
+  
+  <form id="predictionForm" class="prediction-form">
+    <div class="form-group">
+      <label for="species">Fish Species:</label>
+      <select id="species">
+        <option value="tilapia">Tilapia</option>
+        <option value="snapper">Snapper</option>
+        <option value="tuna">Tuna</option>
+        <option value="grouper">Grouper</option>
+        <option value="mackerel">Mackerel</option>
+        <option value="barracuda">Barracuda</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="season">Season/Month:</label>
+      <select id="season">
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="weather">Weather Conditions:</label>
+      <select id="weather">
+        <option value="hot">Hot</option>
+        <option value="mild">Mild</option>
+        <option value="rainy">Rainy</option>
+        <option value="stormy">Stormy</option>
+        <option value="cold">Cold</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <input type="text" id="location" placeholder="e.g., Mombasa">
+    </div>
+
+    <button type="button" onclick="predict()" class="predict-btn">
+      <i class="fas fa-calculator"></i> Generate Prediction
+    </button>
+  </form>
+
+  <div class="result" id="result" style="display:none;"></div>
+  
+  <div class="historical-accuracy">
+    <h3>Prediction Accuracy</h3>
+    <div class="accuracy-meter">
+      <div class="meter-label">Our predictions have been</div>
+      <div class="meter">
+        <div class="meter-fill" style="width: 85%;"></div>
+      </div>
+      <div class="meter-percentage">85% accurate</div>
+      <div class="meter-description">based on historical data comparison</div>
+    </div>
+  </div>
+</section>
+
+<section id="species" class="content-section" style="display:none;">
+  <h2>Fish Species Guide</h2>
+  <p>Explore common fish species found in our coastal waters, their characteristics, and seasonal availability.</p>
+  
+  <div class="species-search">
+    <input type="text" id="speciesSearch" placeholder="Search for a fish species...">
+    <button class="search-btn" onclick="searchSpecies()"><i class="fas fa-search"></i></button>
+  </div>
+  
+  <div class="species-grid">
+    <div class="species-card">
+      <div class="species-image">
+        <img src="/api/placeholder/300/200" alt="Tilapia">
+      </div>
+      <div class="species-info">
+        <h3>Tilapia</h3>
+        <div class="species-meta">
+          <span class="tag">Freshwater</span>
+          <span class="tag">Year-round</span>
+        </div>
+        <p>A popular freshwater fish known for its mild flavor and versatility in cooking.</p>
+        <div class="species-details">
+          <div class="detail-item">
+            <span class="detail-label">Peak Season:</span>
+            <span class="detail-value">March - August</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Avg. Price:</span>
+            <span class="detail-value">KSh 250-350/kg</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Sustainability:</span>
+            <span class="detail-value"><i class="fas fa-circle green"></i> High</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="species-card">
+      <div class="species-image">
+        <img src="/api/placeholder/300/200" alt="Snapper">
+      </div>
+      <div class="species-info">
+        <h3>Red Snapper</h3>
+        <div class="species-meta">
+          <span class="tag">Saltwater</span>
+          <span class="tag">Deep-sea</span>
+        </div>
+        <p>A prized fish with firm texture and sweet, nutty flavor. Popular in upscale restaurants.</p>
+        <div class="species-details">
+          <div class="detail-item">
+            <span class="detail-label">Peak Season:</span>
+            <span class="detail-value">October - January</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Avg. Price:</span>
+            <span class="detail-value">KSh 500-600/kg</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Sustainability:</span>
+            <span class="detail-value"><i class="fas fa-circle yellow"></i> Medium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="species-card">
+      <div class="species-image">
+        <img src="/api/placeholder/300/200" alt="Tuna">
+      </div>
+      <div class="species-info">
+        <h3>Yellowfin Tuna</h3>
+        <div class="species-meta">
+          <span class="tag">Saltwater</span>
+          <span class="tag">Migratory</span>
+        </div>
+        <p>A fast-swimming predator with firm, meaty flesh perfect for grilling or sashimi.</p>
+        <div class="species-details">
+          <div class="detail-item">
+            <span class="detail-label">Peak Season:</span>
+            <span class="detail-value">June - September</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Avg. Price:</span>
+            <span class="detail-value">KSh 600-800/kg</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Sustainability:</span>
+            <span class="detail-value"><i class="fas fa-circle yellow"></i> Medium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="species-card">
+      <div class="species-image">
+        <img src="/api/placeholder/300/200" alt="Mackerel">
+      </div>
+      <div class="species-info">
+        <h3>Mackerel</h3>
+        <div class="species-meta">
+          <span class="tag">Saltwater</span>
+          <span class="tag">Schooling</span>
+        </div>
+        <p>An oily fish rich in omega-3 fatty acids with a distinctive flavor.</p>
+        <div class="species-details">
+          <div class="detail-item">
+            <span class="detail-label">Peak Season:</span>
+            <span class="detail-value">April - July</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Avg. Price:</span>
+            <span class="detail-value">KSh 300-400/kg</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Sustainability:</span>
+            <span class="detail-value"><i class="fas fa-circle green"></i> High</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recipes" class="content-section" style="display:none;">
+  <h2>Fish Recipes</h2>
+  <p>Discover delicious ways to prepare local fish with these traditional and modern recipes.</p>
+  
+  <div class="recipe-filters">
+    <button class="filter-btn active" data-filter="all" onclick="filterRecipes('all')">All Recipes</button>
+    <button class="filter-btn" data-filter="quick" onclick="filterRecipes('quick')">Quick & Easy</button>
+    <button class="filter-btn" data-filter="traditional" onclick="filterRecipes('traditional')">Traditional</button>
+    <button class="filter-btn" data-filter="grilled" onclick="filterRecipes('grilled')">Grilled</button>
+    <button class="filter-btn" data-filter="curry" onclick="filterRecipes('curry')">Curry</button>
+  </div>
+  
+  <div class="recipes-container">
+    <div class="recipe-card" data-tags="grilled,quick">
+      <div class="recipe-image">
+        <img src="images/grilled.jpeg" alt="Grilled Tilapia">
+        <span class="recipe-time"><i class="far fa-clock"></i> 30 min</span>
+      </div>
+      <div class="recipe-content">
+        <h3>Grilled Tilapia with Lemon</h3>
+        <p class="recipe-description">A simple yet flavorful dish that highlights the natural taste of fresh tilapia.</p>
+        <div class="recipe-meta">
+          <span class="recipe-difficulty">Easy</span>
+          <span class="recipe-tags">Grilled, Healthy</span>
+        </div>
+        <a href="#" class="view-recipe">View Recipe</a>
+      </div>
+    </div>
+    
+    <div class="recipe-card" data-tags="curry,traditional">
+      <div class="recipe-image">
+        <img src="images/curry.jpeg" alt="Coconut Fish Curry">
+        <span class="recipe-time"><i class="far fa-clock"></i> 45 min</span>
+      </div>
+      <div class="recipe-content">
+        <h3>Coastal Coconut Fish Curry</h3>
+        <p class="recipe-description">A rich, aromatic curry featuring local fish, coconut milk, and coastal spices.</p>
+        <div class="recipe-meta">
+          <span class="recipe-difficulty">Medium</span>
+          <span class="recipe-tags">Curry, Traditional</span>
+        </div>
+        <a href="#" class="view-recipe">View Recipe</a>
+      </div>
+    </div>
+    
+    <div class="recipe-card" data-tags="quick">
+      <div class="recipe-image">
+        <img src="images/tuna.jpeg" alt="Tuna Steak">
+        <span class="recipe-time"><i class="far fa-clock"></i> 20 min</span>
+      </div>
+      <div class="recipe-content">
+        <h3>Seared Tuna Steak</h3>
+        <p class="recipe-description">A quick gourmet dish that preserves the tender texture and flavor of fresh tuna.</p>
+        <div class="recipe-meta">
+          <span class="recipe-difficulty">Medium</span>
+          <span class="recipe-tags">Quick, Gourmet</span>
+        </div>
+        <a href="#" class="view-recipe">View Recipe</a>
+      </div>
+    </div>
+    
+    <div class="recipe-card" data-tags="traditional">
+      <div class="recipe-image">
+        <img src="images/fried.jpeg" alt="Fried Fish">
+        <span class="recipe-time"><i class="far fa-clock"></i> 35 min</span>
+      </div>
+      <div class="recipe-content">
+        <h3>Traditional Fried Fish with Kachumbari</h3>
+        <p class="recipe-description">A beloved local dish featuring crispy fried fish with a fresh tomato and onion salad.</p>
+        <div class="recipe-meta">
+          <span class="recipe-difficulty">Easy</span>
+          <span class="recipe-tags">Traditional, Fried</span>
+        </div>
+        <a href="#" class="view-recipe">View Recipe</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="content-section" style="display:none;">
+  <h2>About Us</h2>
+  <p>We are a team of researchers and developers working on improving coastal fishing practices using data-driven tools.</p>
+  
+  <div class="about-story">
+    <div class="story-image">
+      <img src="images/image4.jpeg" alt="Coastal fishing community">
+    </div>
+    <div class="story-content">
+      <h3>Our Story</h3>
+      <p>The Coastal Fish Market Platform began in 2023 when a team of marine researchers and tech developers recognized the challenges faced by local fishing communities. With declining fish stocks and unpredictable market prices, fishermen were struggling to make sustainable decisions about when and where to fish.</p>
+      <p>We set out to create a platform that would provide real-time data and predictive insights to help fishermen maximize their catch while maintaining sustainable practices. Today, our platform serves over 500 registered fishermen across multiple coastal communities.</p>
+    </div>
+  </div>
+  
+  <div class="mission-vision">
+    <div class="mission">
+      <h3>Our Mission</h3>
+      <p>To empower fishing communities with data-driven insights for sustainable practices and improved livelihoods.</p>
+    </div>
+    
+    <div class="vision">
+      <h3>Our Vision</h3>
+      <p>Creating a connected coastal ecosystem where fishers, markets, and consumers benefit from transparency and sustainability.</p>
+    </div>
+  </div>
+  
+  <div class="team-section">
+    <h3>Our Team</h3>
+    <div class="team-members">
+      <div class="team-member">
+        <div class="member-image">
+          
+        </div>
+        <h4>Rehema Zipporah</h4>
+        <p class="member-title">Web Developer & Marine Researcher</p>
+        <p class="member-bio">Rehema specializes in marine ecology and has worked with coastal communities for over 5 years.</p>
+        <div class="member-contact">
+          <a href="mailto:rehemazipporah33@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+      <div class="team-member">
+        <div class="member-image">
+          
+        </div>
+        <h4>Lorah Nyangori</h4>
+        <p class="member-title">Data Analyst & Marine Researcher</p>
+        <p class="member-bio">Lorah combines her technical skills with practical fishing knowledge to build intuitive tools.</p>
+        <div class="member-contact">
+          <a href="mailto:Nyangorlorah06@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+ <div class="testimonials">
+    <h3>Success Stories</h3>
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"Since using this platform, I've been able to plan my fishing trips better and get better prices at the market. My income has increased by nearly 30%."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-image">
+            
+          </div>
+          <div class="author-info">
+            <h4>Mohamed Ibrahim</h4>
+            <p>Fisherman, Mombasa</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"The educational resources have taught me how to fish sustainably, and the data dashboard helps me decide where to sell my catch for the best price."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-image">
+            
+          </div>
+          <div class="author-info">
+            <h4>Aisha Mwinyi</h4>
+            <p>Fisherwoman, Lamu</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"The prediction tool is a game-changer. I can now plan my fishing based on weather and market trends, saving time and fuel."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-image">
+            
+          </div>
+          <div class="author-info">
+            <h4>John Kamau</h4>
+            <p>Fisherman, Malindi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Coastal Fish Market Platform</h3>
+        <p>Empowering coastal communities with data-driven insights for sustainable fishing.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#" onclick="showSection('home')">Home</a></li>
+          <li><a href="#" onclick="showSection('resources')">Educational Resources</a></li>
+          <li><a href="#" onclick="showSection('dashboard')">Data Dashboard</a></li>
+          <li><a href="#" onclick="showSection('prediction')">Prediction Tool</a></li>
+          <li><a href="#" onclick="showSection('species')">Fish Species</a></li>
+          <li><a href="#" onclick="showSection('recipes')">Recipes</a></li>
+          <li><a href="#" onclick="showSection('about')">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-envelope"></i> rehemazipporah33@gmail.com</p>
+        <p><i class="fas fa-envelope"></i> Nyangorlorah06@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +254 739 061 656</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2025 Coastal Fish Market Platform | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // Function to toggle section visibility
+    function showSection(sectionId) {
+      document.querySelectorAll('.content-section').forEach(section => {
+        section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+    }
+
+    // Function for the prediction tool (placeholder logic)
+    function predict() {
+      const species = document.getElementById('species').value;
+      const season = document.getElementById('season').value;
+      const weather = document.getElementById('weather').value;
+      const location = document.getElementById('location').value;
+
+      const result = `Based on the input:
+        <ul>
+          <li>Species: ${species}</li>
+          <li>Season: ${season}</li>
+          <li>Weather: ${weather}</li>
+          <li>Location: ${location}</li>
+        </ul>
+        Predicted price range: KSh 300-600/kg<br>
+        Availability: Moderate`;
+
+      const resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = result;
+      resultDiv.style.display = 'block';
+    }
+
+    // Function for species search
+    function searchSpecies() {
+      const searchTerm = document.getElementById('speciesSearch').value.toLowerCase();
+      const speciesCards = document.querySelectorAll('.species-card');
+      speciesCards.forEach(card => {
+        const speciesName = card.querySelector('h3').textContent.toLowerCase();
+        card.style.display = speciesName.includes(searchTerm) ? 'block' : 'none';
+      });
+    }
+
+    // Function for recipe filtering
+    function filterRecipes(filter) {
+      const recipeCards = document.querySelectorAll('.recipe-card');
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      
+      // Update active button
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      document.querySelector(`.filter-btn[data-filter="${filter}"]`).classList.add('active');
+      
+      // Filter recipes
+      recipeCards.forEach(card => {
+        const tags = card.getAttribute('data-tags').split(',');
+        card.style.display = (filter === 'all' || tags.includes(filter)) ? 'block' : 'none';
+      });
+    }
+
+    // Show home section by default
+    showSection('home');
+    // Slideshow functionality
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Function to move to next/previous slide
+function changeSlide(n) {
+  showSlides(slideIndex += n);
+}
+
+// Function to set current slide
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  
+  // Loop back to first slide if beyond the last slide
+  if (n > slides.length) {slideIndex = 1}
+  
+  // Go to last slide if moving backwards from first slide
+  if (n < 1) {slideIndex = slides.length}
+  
+  // Hide all slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  // Remove "active" class from all dots
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  // Show the current slide and mark dot as active
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+// Auto-advance slides every 5 seconds
+setInterval(function() {
+  changeSlide(1);
+}, 5000);
+  </script>
+
+</body>
+</html>
+```
